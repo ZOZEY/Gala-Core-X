@@ -1,0 +1,11 @@
+{
+    "moduleDir": "./gala_modules",
+    "commandDir": "./commands",
+    "token": "699e9a2324c275f914897eae103db36db7d76593a49f2a99ececba380f46ae9fe6199702eedb6245f9eb51105ae61ba7e0fe009ab3d38a59e8c2166b20c7c088",
+    "defaultPrefixes": ["gala"],
+    "categories": {
+        "fun": { "emoji": "🎉" },
+        "utility": { "emoji": "⚙" },
+        "other": { "emoji": "❓" }
+    }
+}
