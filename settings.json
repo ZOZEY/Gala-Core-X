@@ -1,10 +1,4 @@
 {
     "moduleDir": "./gala_modules",
-    "commandDir": "./commands",
-    "token": "",
-    "defaultPrefixes": ["gala"],
-    "categories": {
-        "fun": { "emoji": "🎉" },
-        "utility": { "emoji": "⚙" }
-    }
+    "commandDir": "./commands"
 }
