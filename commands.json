@@ -1,4 +1,7 @@
 {
-    "fun": { "emoji": "🎉" },
-    "utility": { "emoji": "⚙" }
+    "categories": {
+        "fun": { "emoji": "🎉" },
+        "utility": { "emoji": "⚙" }
+    },
+    "commands": {}
 }
