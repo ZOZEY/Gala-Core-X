@@ -1,5 +1,5 @@
 /**
- * Copyright 2019 Jordan Owens
+ * Copyright 2019 Galaktikos
  * All rights reserved.
  */
 
@@ -7,10 +7,6 @@ let modules;
 module.exports = {
     initialize(u) {
         modules = u
-    },
-    commandFormat(u) {
-        let d = message.content.replace(prefix, "").toLowerCase().split(" ");
-        return "" == d[0] ? d[1] : d[0]
     },
     isLink: u => !!new RegExp("^(https?:\\/\\/)?((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|((\\d{1,3}\\.){3}\\d{1,3}))(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*(\\?[;&a-z\\d%_.~+=-]*)?(\\#[-a-z\\d_]*)?$", "i").test(u),
     isText: u => /^[a-zA-Z]+$/.test(u),
