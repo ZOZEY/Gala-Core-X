@@ -9,4 +9,4 @@ A discord bot core designed to get your bot started and help make development ea
 3. Type into the terminal:
 `node startup.js`
 4. Follow settup steps in the terminal
-5. Create commands inside your command folder and add categories in the `settings.json` file
+5. Create commands inside your commands folder and add categories in the `settings.json` file
