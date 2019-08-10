@@ -1,5 +1,5 @@
 /**
- * Copyright 2019 Jordan Owens
+ * Copyright 2019 Galaktikos
  * All rights reserved.
  */
 
