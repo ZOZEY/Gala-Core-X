@@ -1,8 +1,3 @@
-/**
- * Copyright 2019 Galaktikos
- * All rights reserved.
- */
-
 let modules;
 module.exports = {
     initialize(o) {

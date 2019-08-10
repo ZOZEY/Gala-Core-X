@@ -1,8 +1,3 @@
-/**
- * Copyright 2019 Galaktikos
- * All rights reserved.
- */
-
 const crypto = require("crypto"),
     algorithm = "aes-256-cbc";
 let modules;
