@@ -22,7 +22,7 @@ exports.start = function(e, n, s) {
         }
         settings.defaultPrefixes.forEach(t => {
             if (e.content.toLowerCase().startsWith(t))
-                if (commandMsg = e.content.replace(t, "").toLowerCase().split(" "), "" == commandMsg[0])
+                if (commandMsg = e.content.toLowerCase().replace(t, "").split(" "), "" == commandMsg[0])
                     if (s.commands.includes(commandMsg[1])) try {
                         let s = require(`${settings.commandDir}/${commandMsg[1]}.js`);
                         try {
