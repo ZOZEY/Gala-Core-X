@@ -32,7 +32,7 @@ exports.start = function(e, n, s) {
                         }
                     } catch (e) {
                         n.errorHandler.importFailure(e, `${settings.commandDir}/${commandMsg[1]}.js`)
-                    } else n.messageHandler.send(e.channel, e.author, `Command \`${commandMsg[1]}\` not found. Please use \`${t}help\`.`);
+                    } else n.messageHandler.send(e.channel, e.author, `Command \`${commandMsg[1]}\` not found. Please use \`${t} help\`.`);
                     else if (s.commands.includes(commandMsg[0])) try {
                 let s = require(`${settings.commandDir}/${commandMsg[0]}.js`);
                 try {
@@ -42,7 +42,7 @@ exports.start = function(e, n, s) {
                 }
             } catch (e) {
                 n.errorHandler.importFailure(e, `${settings.commandDir}/${commandMsg[0]}.js`)
-            } else n.messageHandler.send(e.channel, e.author, `Command \`${commandMsg[0]}\` not found. Please use \`${t} help\`.`)
+            } else n.messageHandler.send(e.channel, e.author, `Command \`${commandMsg[0]}\` not found. Please use \`${t}help\`.`)
         })
     })
 };
