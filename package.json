@@ -4,6 +4,8 @@
   "dependencies": {
     "circular-json": "^0.5.9",
     "crypto": "^1.0.1",
-    "discord.js": "^11.3.2"
+    "discord": "^0.8.2",
+    "discord.js": "^11.3.2",
+    "string-similarity": "^4.0.2"
   }
 }

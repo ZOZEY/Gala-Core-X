@@ -1,7 +1,1 @@
-{
-    "categories": {
-        "fun": { "emoji": "🎉" },
-        "utility": { "emoji": "⚙" }
-    },
-    "commands": {}
-}
+{"categories":{"fun":{"emoji":"🎉"},"utility":{"emoji":"⚙"},"gif":{"emoji":"🖼️️"}},"commands":["avatar","credits","feed","hug","kiss","pat","ping","slap","smug","tickle"]}

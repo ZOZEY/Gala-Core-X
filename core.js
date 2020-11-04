@@ -13,7 +13,7 @@ exports.start = function(e, n, s) {
         n.errorHandler.loginFailure(e)
     }
     n.logHandler.start(client), client.on("ready", () => {
-        console.log("Bot started"), client.user.setActivity(` with ${client.users.filter(user => !user.bot).size} in ${client.guilds.size} servers.`)
+        console.log("Bot started"), client.user.setActivity(`with fire`)
     }), client.on("message", e => {
         try {
             settings = require("./settings.json")

@@ -4,7 +4,7 @@ module.exports = {
         modules = e
     },
     send(e, s, t) {
-        const o = (new modules.discord.RichEmbed).setColor(0).setTitle(t).setAuthor(s.username, s.avatarURL).setTimestamp().setFooter("Gala Core X");
+        const o = (new modules.discord.RichEmbed).setColor(0).setTitle(t).setAuthor(s.username, s.avatarURL).setTimestamp().setFooter("E-Girl Bot");
         return e.send(o)
     }
 };

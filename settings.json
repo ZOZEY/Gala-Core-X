@@ -1,4 +1,1 @@
-{
-    "moduleDir": "./gala_modules",
-    "commandDir": "./commands"
-}
+{"moduleDir":"./gala_modules","commandDir":"./commands","token":"473b0684b28f9d1b89092f82ec6165245e9fb6d7fc81c910041cea788d3f54e65418410b39680c53b0307a946430aa888ff42c98f22a7b572a9256b6ddd35cf7","defaultPrefixes":["e-"]}
